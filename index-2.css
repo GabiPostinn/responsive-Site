@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: 0.3s;
 }
 
 body {
@@ -11,6 +10,8 @@ body {
   background-size: cover;
   background-position: center;
   color: white;
+  opacity: 0;
+  transition: opacity 2s ease;
 }
 .container {
   width: 100%;
@@ -22,10 +23,21 @@ body {
 }
 #rightTextP {
   white-space: pre-line;
+  margin: 0 0 40px 0;
 }
 #planetImage {
   margin: 8vh 0 0 0;
+  animation: rotateInfinite 15s linear infinite;
 }
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .top {
   display: flex;
   flex-direction: row;
@@ -39,8 +51,35 @@ body {
   font-size: 17vh;
   font-weight: 100;
   font-family: "Libertinus Mono", monospace;
-  margin: 10px 0 50px 0;
+  margin: 10px 0 20px 0;
 }
 .top > span {
   cursor: pointer;
+  font-weight: 300;
+}
+.top > span:hover {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+#leftTextH1 {
+  font-size: 36px;
+}
+#distance1p {
+  margin: 40px 0 0 0;
+}
+#distance2p {
+  margin: 40px 0 0 0;
+}
+.distance {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+}
+#distance1h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+#distance2h1 {
+  font-size: 24px;
+  font-weight: 500;
 }
