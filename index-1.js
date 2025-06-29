@@ -12,5 +12,5 @@ const exploreButton = document.getElementById("exploreButton");
 exploreButton.src = "./images/Group.png";
 
 exploreButton.addEventListener("click", () => {
-  window.location.href = "index-2";
+  window.location.href = "index-2.html";
 });
