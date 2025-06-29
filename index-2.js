@@ -1,5 +1,5 @@
 const leftTextH1 = document.getElementById("leftTextH1");
-leftTextH1.textContent = "01 PICK YOUR DESTINATION";
+leftTextH1.textContent = " PICK YOUR DESTINATION";
 
 const planetImage = document.getElementById("planetImage");
 planetImage.src = "./images/moon.png";
