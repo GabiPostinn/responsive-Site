@@ -1,3 +1,20 @@
+const logoNav = document.getElementById("logoNav");
+logoNav.src = "./images/logo.svg";
+
+const homeButton = document.getElementById("homeBtn");
+homeButton.textContent = "HOME";
+homeButton.href = "index-1.html";
+
+const destinationButton = document.getElementById("destBtn");
+destinationButton.textContent = "DESTINATION";
+destinationButton.href = "index-2.html";
+
+const crewButton = document.getElementById("crewBtn");
+crewButton.textContent = "CREW";
+
+const technologyButton = document.getElementById("techBtn");
+technologyButton.textContent = "TECHNOLOGY";
+
 const leftTextH1 = document.getElementById("leftTextH1");
 leftTextH1.textContent = " PICK YOUR DESTINATION";
 

@@ -1,8 +1,19 @@
 const logoNav = document.getElementById("logoNav");
 logoNav.src = "./images/logo.svg";
 
-const rectangleNav = document.getElementById("rectangleNav");
-rectangleNav.src = "./images/Rectangle.png";
+const homeButton = document.getElementById("homeBtn");
+homeButton.textContent = "HOME";
+homeButton.href = "index-1.html";
+
+const destinationButton = document.getElementById("destBtn");
+destinationButton.textContent = "DESTINATION";
+destinationButton.href = "index-2.html";
+
+const crewButton = document.getElementById("crewBtn");
+crewButton.textContent = "CREW";
+
+const technologyButton = document.getElementById("techBtn");
+technologyButton.textContent = "TECHNOLOGY";
 
 const containerLeftH2 = document.getElementById("containerL-h2");
 containerLeftH2.textContent = "SO, YOU WANT TO TRAVEL TO";
