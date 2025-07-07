@@ -46,7 +46,7 @@ document.getElementById("marsSpan").addEventListener("click", () => {
   planetName.textContent = "MARS";
   planetImage.src = "./images/mars.png";
   distance1h2.textContent = "225 MIL. km";
-  rightTextP.textContent = "Don’t forget to pack your hiking boots. You’ll need them to\n tackle Olympus Mons, the tallest planetary mountain in \n our solar system. It’s two and a half times the size of \n Everest!";
+  rightTextP.textContent = "Don’t forget to pack your hiking boots. You’ll need them\n to tackle Olympus Mons, the tallest planetary mountain \n in  our solar system. It’s two and a half times the size of \n Everest!";
   distance2h1.textContent = "9 MONTHS";
 });
 document.getElementById("europaSpan").addEventListener("click", () => {

@@ -21,6 +21,10 @@ body {
   align-items: center;
   margin: 25vh 0 0 0;
 }
+.header {
+  display: flex;
+  flex-direction: row;
+}
 #rightTextP {
   white-space: pre-line;
   margin: 0 0 40px 0;
@@ -28,6 +32,8 @@ body {
 #planetImage {
   margin: 8vh 0 0 0;
   animation: rotateInfinite 15s linear infinite;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 @keyframes rotateInfinite {
   0% {
@@ -52,10 +58,12 @@ body {
   font-weight: 100;
   font-family: "Libertinus Mono", monospace;
   margin: 10px 0 20px 0;
+  text-shadow: 5px 5px 4px rgb(0, 0, 0);
 }
 .top > span {
   cursor: pointer;
   font-weight: 300;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 .top > span:hover {
   color: #f0f0f0;
@@ -63,6 +71,7 @@ body {
 }
 #leftTextH1 {
   font-size: 36px;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 #distance1p {
   margin: 40px 0 0 0;
@@ -82,4 +91,7 @@ body {
 #distance2h1 {
   font-size: 24px;
   font-weight: 500;
+}
+#righttextp {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
 }

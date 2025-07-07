@@ -1,3 +1,9 @@
+const logoNav = document.getElementById("logoNav");
+logoNav.src = "./images/logo.svg";
+
+const rectangleNav = document.getElementById("rectangleNav");
+rectangleNav.src = "./images/Rectangle.png";
+
 const containerLeftH2 = document.getElementById("containerL-h2");
 containerLeftH2.textContent = "SO, YOU WANT TO TRAVEL TO";
 
